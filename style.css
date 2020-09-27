@@ -1,0 +1,31 @@
+/* margin: auto; = take all the available space */
+
+.card {   
+    border-style: solid;
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+    
+}
+
+img {
+    width: 300px;
+    height: 220px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+    }
+
+h4 {
+    border-style: solid;
+    border-radius: 10px;
+    border: none;
+    background-color:orange;
+    width: 150px;
+    margin: auto;
+    color: white;
+}
+
+h4:hover {
+    background-color: yellow;
+}
