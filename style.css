@@ -1,20 +1,30 @@
-/* margin: auto; = take all the available space */
-
 .card {   
-    border-style: solid;
     border-radius: 15px;
+    box-shadow: 10px 10px 30px #888888;
     width: 300px;
     text-align: center;
+    display: inline-block;
+    margin: 25px;
+    
     
 }
 
-img {
-    width: 300px;
+.card img {
+    width: 100%;
     height: 220px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     
     }
+
+h1 {
+    margin-left: 10%;
+    margin-right:10%;
+    background-color: bisque;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+}
 
 h4 {
     border-style: solid;
@@ -28,4 +38,22 @@ h4 {
 
 h4:hover {
     background-color: yellow;
+}
+
+#banner {
+    height: 200px; /* no width needed - margins are doing that*/
+    margin-left: 10%;
+    margin-right:10%;
+    background: url("https://images.unsplash.com/photo-1498855926480-d98e83099315?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80") no-repeat center;
+    background-size: cover; /* will make the the banner image fit */
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#main {
+    margin-left: 10%;
+    margin-right:10%;
+    margin-top: 25px; 
+    
+
 }
